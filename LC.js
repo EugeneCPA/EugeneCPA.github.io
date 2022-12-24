@@ -23,7 +23,7 @@ button.addEventListener("click", function() {
     div[0].appendChild(p); **/
     const begin = new Date().getTime();
 
-    start(parseInt(input[0].value.split(".").join("")), parseInt(input[1].value.split(".").join("")));
+    start(parseInt(input[0].value.split(".").join("")));
 
     const end = new Date().getTime();
 
